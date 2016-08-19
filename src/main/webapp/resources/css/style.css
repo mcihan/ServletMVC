@@ -1,0 +1,37 @@
+input 
+{
+	margin: 0px;
+}
+
+table 
+{
+	border-collapse: collapse;
+}
+
+tr,th,td 
+{
+    text-align: center;
+	 
+}
+.td_btn
+{
+	border-right: none;
+	border-left: none;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-align: center;
+}
+button {
+	padding: 5px 15px;
+	margin:2px;
+	background: #4285f4;
+	border: 0 none;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	border: none;
+	width: 100%;
+	color: white
+}
+

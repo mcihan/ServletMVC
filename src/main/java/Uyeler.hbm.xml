@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+    <class name="com.developera.model.Uyeler" table="Uyeler">
+        <id name="uyeId" column="uyeId" type="int">
+            <generator class="increment"/>
+        </id>
+        <property name="uyeAdi" type="string"/>
+        <property name="uyeSoyadi" column="uyeSoyadi" type="string"/>
+         <property name="uyeMeslegi" type="string"/>
+        <property name="uyeDogumYili" type="string"/>
+    </class>
+</hibernate-mapping>
+
